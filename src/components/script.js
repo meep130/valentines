@@ -32,20 +32,5 @@ function handleNoClick() {
 }
 
 function handleYesClick() {
-  window.location.href = './yes_page.html'
+  window.location.href = '/valentines/yes_page.html'
 }
-
-// function playVideo() {
-//   const iframe = document.getElementById('background-video')
-//   const playMessage = document.querySelector('.play-message')
-//   playMessage.style.display = 'none' // Hide the play message
-//   iframe.src += '&autoplay=1' // Enable autoplay
-// }
-
-// function unmuteVideo() {
-//   const iframe = document.getElementById('background-video')
-//   const unmuteMessage = document.querySelector('.unmute-message')
-//   unmuteMessage.style.display = 'none' // Hide the unmute message
-//   const newSrc = iframe.src.replace('&mute=1', '') // Remove mute parameter
-//   iframe.src = newSrc
-// }
