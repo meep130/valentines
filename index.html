@@ -1,15 +1,75 @@
-<!DOCTYPE html>
-<html lang="">
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/valentines/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
-    <script type="module" crossorigin src="/valentines/assets/index-BSC8daiC.js"></script>
-    <link rel="stylesheet" crossorigin href="/valentines/assets/index-CrXw9O2d.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="./src/components/styles.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <div class="container">
+      <h1>Will you be my Valentine?</h1>
+      <div class="buttons">
+        <button class="yes-button" onclick="handleYesClick()">Yes</button>
+        <button class="no-button" onclick="handleNoClick()">No</button>
+      </div>
+      <div class="gif_container">
+        <img
+          src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW5lenZyZHI5OXM2eW95b3pmMG40cWVrMDhtNjVuM3A4dGNxa2g2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VM1fcpu2bKs1e2Kdbj/giphy.gif"
+          alt="Cute GIF"
+        />
+      </div>
+    </div>
 
+    <!-- Embed SoundCloud player -->
+    <div class="soundcloud-player">
+      <iframe
+        width="100%"
+        height="166"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1396344514&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+      ></iframe>
+      <div
+        style="
+          font-size: 10px;
+          color: #cccccc;
+          line-break: anywhere;
+          word-break: normal;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          font-family:
+            Interstate,
+            Lucida Grande,
+            Lucida Sans Unicode,
+            Lucida Sans,
+            Garuda,
+            Verdana,
+            Tahoma,
+            sans-serif;
+          font-weight: 100;
+        "
+      >
+        <a
+          href="https://soundcloud.com/thuicide"
+          title="thuicide"
+          target="_blank"
+          style="color: #cccccc; text-decoration: none"
+          >thuicide</a
+        >
+        ·
+        <a
+          href="https://soundcloud.com/thuicide/glue-song-beabadoobee"
+          title="glue song - beabadoobee"
+          target="_blank"
+          style="color: #cccccc; text-decoration: none"
+          >glue song - beabadoobee</a
+        >
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./src/components/script.js"></script>
   </body>
 </html>
